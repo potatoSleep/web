@@ -1,0 +1,136 @@
+$primary-color: #b18934;
+$text-color: #333;
+$border-color: #ddd;
+$input-bg: #f9f9f9;
+$font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.contact {
+    margin: 98px 191px auto 191px;
+
+
+.contact-container{
+
+    h2 {
+        margin: 0px 340px;
+        color: #000;
+font-family: 'Poppins', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+
+    .description {
+        margin: 0px 207px;
+        width: 644px;
+        color: #9F9F9F;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+}
+   
+.info-form{
+    margin-top: 14px;
+    display: flex;
+    gap: 20px;
+}
+    .contact-info {
+        margin-top: 68px;
+        width: 393px;
+height: 537px;
+flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        .info-item-box{
+            margin: 46px 75px 54px 71px;
+        }
+        .info-item {
+            display: flex;
+            margin-bottom: 42px;
+
+            .icon {
+                width: 22px;
+                height: 27.592px;
+                flex-shrink: 0;
+            }
+
+            h3 {
+                width: 212px;
+                margin: 0;
+                font-size: 24px;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            p {
+                width: 212px;
+                text-align: left;
+                font-size: 14px;
+                color: $text-color;
+                font-family: 'Poppins', sans-serif;
+              
+            }
+        }
+    }
+
+    .contact-form {
+        width: 635px;
+height: 923px;
+flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+.form-magin{
+    margin: 119px 52px 63px 54px ;
+}
+        label {
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+       
+        }
+
+        input, textarea {
+            margin-top: 22px;
+            margin-bottom: 36px;
+            width: 528.75px;
+            height: 60px;
+            padding: 15px;
+            flex-shrink: 0;
+            border-radius: 10px;
+border: 1px solid #9F9F9F;
+background: #FFF;
+        }
+
+        textarea {
+            height: 80px;
+            resize: none;
+        }
+
+        button {
+            width: 237px;
+height: 55px;
+flex-shrink: 0;
+            background: $primary-color;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+
+            &:hover {
+                background: darken($primary-color, 10%);
+            }
+        }
+    }
+}

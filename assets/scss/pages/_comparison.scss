@@ -1,0 +1,138 @@
+$font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.product-section {
+    width: 1332px;
+    display: grid;
+    grid-template-columns: 300px 344px 344px 314px;
+    gap: 10px;
+
+    font-family: $font-family; // Áp dụng font mặc định cho toàn bộ section
+
+    .left {
+        .left-box{
+            margin-left: 42px;
+            margin-right: 36px;
+        }
+        h2 {
+            width: 223px;
+            color: #ed1d1d;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 126.5%; /* 35.42px */
+        }
+
+        .view-more {
+            display: inline-block;
+            color: #727272;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            &:hover {
+                color: #b68a40;
+                border-bottom-color: #b68a40;
+            }
+        }
+    }
+
+  
+
+        .product-card {
+            width: 280px;
+            background: #f9f9f9;
+      
+            border-radius: 8px;
+            text-align: center;
+            width: 230px; // Tăng kích thước để hình ảnh và nội dung hiển thị tốt hơn
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+            font-family: $font-family;
+        
+            // &:hover {
+            //     transform: translateY(-5px);
+            //     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            // }
+        .img-card{
+            width: 280px;
+            height: 177px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            background-color: #F9F1E7;
+        }
+            img {
+                width: 239px;
+                height: 142px;
+                flex-shrink: 0;
+                border-radius: 8px;
+                transition: 0.3s ease;
+        
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+        
+            h3 {
+                font-size: 18px;
+                margin-top: 10px;
+                font-weight: 600;
+                color: #333;
+            }
+        
+            p {
+                font-size: 16px;
+                font-weight: bold;
+                color: #b68a40; // Nhấn mạnh giá bằng màu vàng nâu
+                margin-top: 5px;
+            }
+        
+            .rating {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                margin-top: 5px;
+                font-size: 14px;
+                color: #666;
+                font-weight: 500;
+        
+                .reviews {
+                    font-size: 12px;
+                    color: #aaa;
+                }
+        
+                span {
+                    font-weight: bold;
+                    color: #333;
+                }
+            }
+        }
+
+    .right {
+      
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .dropdown-btn {
+            background: #b68a40;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+           
+        
+            font-size: 14px;
+            transition: 0.3s ease;
+
+         
+            }
+        }
+    }

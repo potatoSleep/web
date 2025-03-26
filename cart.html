@@ -4,12 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Cart</title>
 </head>
 
 <body>
-    <p>QA</p>
-    <p>tiếp</p>
+    <div class="container">
+        <section class="cart">
+            <!-- Cart Items -->
+            <div class="cart-items">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                        <img id="product-img" src="./assets/Asgaard sofa 3.png" alt="Product Image">
+                        <span>Asgaard sofa</span>
+                    </td>
+                    
+                    <td>Rs. 250,000.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs. 250,000.00</td>
+                    <td><button class="remove-item"><img id="icon" src="assets/ant-design_delete-filled.png" alt="Remove"></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        
+            <!-- Cart Totals -->
+            <div class="cart-totals">
+                <div class="cart-margin">
+              <h2>Cart Totals</h2>
+              <table>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>Rs. 250,000.00</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td class="total">Rs. 250,000.00</td>
+                </tr>
+              </table>
+              <button class="checkout-button">Check Out</button>
+            </div>
+        </div>
+          </section>
+    </div>
 </body>
 
 </html>
