@@ -1,0 +1,45 @@
+$font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.services-i {
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+    gap: 20px;
+    background-color: #FAF3EA;;
+
+  
+    .service-item {
+      display: flex;
+      justify-content: space-between;
+        align-items: center;
+  
+      img {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+      }
+  
+      .service-text {
+        p {
+          color: #242424; /* Đặt màu sắc cho tiêu đề giống như trong ảnh */
+          font-family: Poppins, sans-serif;
+          font-size: 25px;
+          font-weight: 600;
+          line-height: 150%; /* 37.5px */
+          letter-spacing: 0.5px;
+          margin-bottom: 5px;
+        }
+  
+        span {
+          font-size: 20px;
+          color: #777; /* Màu cho phần mô tả, giống như trong ảnh */
+        }
+      }
+    }
+  }
+  

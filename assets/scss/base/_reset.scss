@@ -127,3 +127,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+    box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    margin: 0;               /* Xóa bỏ margin mặc định của body */
+}
+
+.container {
+    max-width: 1440px;       /* Giới hạn chiều rộng tối đa của nội dung */
+  margin: 100px auto; /* Tạo khoảng cách 100px từ trên và dưới */
+}
